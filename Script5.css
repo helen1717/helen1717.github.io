@@ -1,7 +1,25 @@
 ﻿body{
       backgroundColor:yeolov;
 	}
-#a1{
+div{ border: 3px solid pink;
+   
+     background-color: blue;
+    }
+#b1{  margin: 10px;
+      background-color:yellow;
+    }
+
+.y1{  background-color: grey;
+      padding: 5px; 
+    }
+#b3{ width:20%;
+     float:left;
+background-color: grey;
+    }
+#b4{ width:60%;
+    float:left; 
+background-color: grey;
+    #a1{
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -9,3 +27,13 @@
 #a2{
 	padding: 350px;
 	}
+    }
+#b5{ width:18%;
+    float:left;
+
+background-color: grey;
+    }
+#b6{ width:100%;
+  clear: both;
+    }
+
