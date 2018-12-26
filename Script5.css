@@ -19,12 +19,12 @@ background-color: grey;
 #b4{ width:60%;
     float:left; 
 background-color: grey; }
-    #a1{
+    .a1{
 	position: absolute;
 	top: 0px;
 	left: 0px;
    }
-#a2{
+.a2{
 	padding: 350px;
 	}
     }
