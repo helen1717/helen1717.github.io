@@ -18,6 +18,7 @@ function f()
 	{	
 		var e = document.getElementById('a1');
 		e.style.top=(parseInt(e.style.top)+10)+'px';
+		alert(e.style.top);
 		if(parseInt(e.style.top) <=0)
 			{
 				s();
