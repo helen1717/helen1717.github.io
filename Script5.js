@@ -16,7 +16,7 @@ var g1= 255;
 var b1= 0;
 function f()
 	{	
-		var e = document.getElementById('b1');
+		var e = document.getElementById('a1');
 		e.style.top=(parseInt(e.style.top)+10)+'px';
 		if(parseInt(e.style.top) <=0)
 			{
@@ -29,7 +29,7 @@ function f()
 
 function r()
 	{
-		var x = document.getElementById('b1');
+		var x = document.getElementById('a1');
 		x.style.top = "0px";
 		t = setInterval('f()',100);
 	}
